@@ -3,6 +3,11 @@
 	<persistence-unit name="bugsnitch">
 		
 		<class>br.ufabc.bugsnitch.model.Usuario</class>
+		<class>br.ufabc.bugsnitch.model.Projeto</class>
+		<class>br.ufabc.bugsnitch.model.UsuarioProjeto</class>
+		<class>br.ufabc.bugsnitch.model.Registro</class>
+		<class>br.ufabc.bugsnitch.model.Comentario</class>
+		<class>br.ufabc.bugsnitch.model.Anexo</class>
 		
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
