@@ -46,7 +46,7 @@ public class Teste extends JFrame {
 				JOptionPane.showMessageDialog(null, "Teste");
 				
 				UsuarioDAO uDAO = new UsuarioDAO();
-				List<Usuario> usuarios = uDAO.listAll();
+				List<Usuario> usuarios = uDAO.findAll();
 				
 				for(Usuario u : usuarios){
 					lblNomes.setText(lblNomes.getText() + "\n" + u.getNome());

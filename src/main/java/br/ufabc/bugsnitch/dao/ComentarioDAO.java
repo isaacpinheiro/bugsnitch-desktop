@@ -61,7 +61,7 @@ public class ComentarioDAO {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Comentario> listAll(){
+	public List<Comentario> findAll(){
 		
 		List<Comentario> obj = null;
 		

@@ -61,7 +61,7 @@ public class AnexoDAO {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Anexo> listAll(){
+	public List<Anexo> findAll(){
 		
 		List<Anexo> obj = null;
 		

@@ -61,7 +61,7 @@ public class UsuarioDAO {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Usuario> listAll(){
+	public List<Usuario> findAll(){
 		
 		List<Usuario> obj = null;
 		

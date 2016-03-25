@@ -61,7 +61,7 @@ public class ProjetoDAO {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Projeto> listAll(){
+	public List<Projeto> findAll(){
 		
 		List<Projeto> obj = null;
 		

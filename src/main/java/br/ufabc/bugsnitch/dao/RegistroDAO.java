@@ -61,7 +61,7 @@ public class RegistroDAO {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<Registro> listAll(){
+	public List<Registro> findAll(){
 		
 		List<Registro> obj = null;
 		

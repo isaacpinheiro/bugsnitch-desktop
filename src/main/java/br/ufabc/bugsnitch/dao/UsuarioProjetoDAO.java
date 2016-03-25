@@ -61,7 +61,7 @@ public class UsuarioProjetoDAO {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public List<UsuarioProjeto> listAll(){
+	public List<UsuarioProjeto> findAll(){
 		
 		List<UsuarioProjeto> obj = null;
 		
