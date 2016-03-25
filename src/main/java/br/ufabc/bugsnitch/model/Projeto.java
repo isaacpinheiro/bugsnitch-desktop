@@ -23,6 +23,9 @@ public class Projeto implements Serializable {
 	@Column(name = "descricao", nullable = false)
 	private String descricao;
 	
+	@Column(name = "area", nullable = false)
+	private String area;
+	
 	@Column(name = "status", nullable = false)
 	private String status;
 	
@@ -52,6 +55,14 @@ public class Projeto implements Serializable {
 	
 	public String getDescricao(){
 		return this.descricao;
+	}
+	
+	public void setArea(String area){
+		this.area = area;
+	}
+	
+	public String getArea(){
+		return this.area;
 	}
 	
 	public void setStatus(String status){
