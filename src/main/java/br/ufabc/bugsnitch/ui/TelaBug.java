@@ -1,4 +1,4 @@
-package bugSnitch;
+package br.ufabc.bugsnitch.ui;
 
 import javax.swing.JPanel;
 import javax.swing.JLabel;

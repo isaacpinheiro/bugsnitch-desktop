@@ -1,4 +1,4 @@
-package bugSnitch;
+package br.ufabc.bugsnitch.ui;
 
 import javax.swing.JPanel;
 import javax.swing.JButton;
@@ -6,7 +6,7 @@ import javax.swing.SwingConstants;
 import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.forms.layout.ColumnSpec;
 import com.jgoodies.forms.layout.RowSpec;
-import com.jgoodies.forms.layout.FormSpecs;
+//import com.jgoodies.forms.layout.FormSpecs;
 import java.awt.GridLayout;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

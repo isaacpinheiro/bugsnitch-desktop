@@ -1,4 +1,4 @@
-package bugSnitch;
+package br.ufabc.bugsnitch.ui;
 
 import javax.swing.JPanel;
 import javax.swing.JComboBox;
@@ -53,7 +53,7 @@ public class TelaProjeto extends JPanel {
 		list.setBounds(40, 267, 253, 77);
 		add(list);
 		
-		JLabel lblNewLabel = new JLabel("Bem Vindo Canalha");
+		JLabel lblNewLabel = new JLabel("Bem Vindos");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setFont(new Font("Arial", Font.PLAIN, 20));
 		lblNewLabel.setBounds(40, 11, 261, 32);
